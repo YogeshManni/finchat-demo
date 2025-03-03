@@ -121,7 +121,7 @@ Installation
 
   ```
     git clone https://github.com/YogeshManni/finchat-demo
-```
+  ```
 3.  **Install Dependencies**:
 
     ```
@@ -135,7 +135,7 @@ Installation
        ```
         FMP_API_KEY=your-fmp-api-key-here
         OPENAI_API_KEY=your-openai-api-key-here
-        ```
+       ```
 
 
 Running the App
@@ -153,15 +153,16 @@ Running the App
 
 3.  **Build for Production** (optional):
 
-   - Build command
-```
-    npm run build 
-```    
- - Ater that production build can be served using the command
-    
-    ```
-    npm start
-    ```
+     - Build command
+         
+        ```
+        npm run build 
+        ```    
+     - Ater that production build can be served using this command -
+        
+        ```
+        npm start
+        ```
 
 Usage
 -----
