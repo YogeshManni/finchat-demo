@@ -24,7 +24,8 @@ Table of Contents
 
 -   [Example Prompts](#example-prompts)
 
-
+-   [Helpful Tips](#helpful-tips)
+  
 -   [Contact](#contact)
 
 Features
@@ -70,6 +71,9 @@ Directory structure:
     ├── tsconfig.json                         # TypeScript configuration - sets up compiler options
     ├── .firebaserc                           # Firebase project metadata - links to your Firebase project ID
     ├── public/                               # Static assets directory - holds files like images or favicon
+    ├── logs/                                 # Logs folder - All logs files will be created here (This folder will be created after user submit's first query)
+    ├   ├── combined.log                    # All logs will be visible in this file 
+    ├   ├── error.log                       # Only error will be logged in this file
     ├── src/                                  # Source code directory - contains all app logic and UI
     │   ├── app/                              # App Router directory - defines pages and API routes
     │   │   ├── layout.tsx                    # Root layout component - wraps all pages with consistent structure
@@ -173,6 +177,8 @@ Usage
 
 -   Watch the AI response appear , structured with headings and bullets.
 
+-   You can also click on Play button at bottom of message to hear the response instead of reading it.
+
 Example Prompts
 ---------------
 
@@ -185,6 +191,12 @@ Example Prompts
 -   "How many new large deals did ServiceNow sign in the last quarter?"
 
 
+Helpful Tips
+-------------
+
+ - Review the logs in combined.log and error.log files located in the logs folder. These logs provide a detailed view of the data flow, aiding in better understanding of the application’s behavior. (Note: Logs are generated after the first user query.)
+ - In the openAiApi.ts file, you can modify the model to suit your preferences. Additionally, you may adjust the max_tokens value as needed - consider increasing it only if OpenAI’s responses are being truncated.
+ - Enhance the prompts in prompt.ts to improve results if you notice the responses are unsatisfactory.
 
 Contact
 -------
@@ -195,4 +207,4 @@ Contact
 
 -   **Email**: yogeshmanni786@gmail.com
 
--   **Issues**: Report bugs or suggest features on the [GitHub Issues page](https://github.com/YogeshManni/finchat-demo/issues)
+-   **Issues**: Report bugs or suggest features on the [GitHub Issues page](https://github.com/YogeshManni/finchat-demo/issues) or email me at yogeshmanni786@gmail.com
