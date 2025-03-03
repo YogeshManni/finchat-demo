@@ -47,6 +47,8 @@ Features
 
 -   Structured output with highlighted headings and bullet points.
 
+-   Audio playback feature allowing users to listen to AI responses.
+
 Tech Stack
 ----------
 
