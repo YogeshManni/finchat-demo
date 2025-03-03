@@ -194,13 +194,13 @@ Example Prompts
 
 -   "How many new large deals did ServiceNow sign in the last quarter?"
 
-Screenshots - 
+Screenshots
 -----------
 
 ![image](https://github.com/user-attachments/assets/0f3c0708-d5c2-46d2-83e9-ddaaab628c62)
 ![image](https://github.com/user-attachments/assets/460d25d2-285e-40c3-985d-57430683f837)
 
-Flowchart -
+Flowchart
 ----------
 
 I've created a high level flowchart to describe the workflow of this app. You can find this flowchart [here](https://github.com/YogeshManni/finchat-demo/blob/main/flowchart.png)
